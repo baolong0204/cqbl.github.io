@@ -1,0 +1,268 @@
+body{
+	background-image: url(Source/Image/background.jpg);
+}
+#wrapper{
+	width: 1000px;
+	background-color: white;
+	margin: auto;
+}
+#header{
+	width: 1000px;
+	height: 80px;
+	background-color: white;
+}
+.logo{
+	float: left;
+}
+.contact{
+	float: right;
+	text-align: right;
+}
+
+#mainimg{
+	width: 1000px;
+	height: 300px;
+}
+h1{
+	font-size: 35px;
+    text-align: center;
+    height: 60px;
+    font-family: HelveticaMC;
+    font-weight: normal;
+}
+#button1{
+	width: 1000px;
+	height: 150px;
+	background-color: white;
+	position: relative;
+}
+.try{
+	background: url(Source/Image/button-try.png) no-repeat top left;
+	border: none;
+    width: 343px;
+    height: 55px;
+    display: block;
+    position: relative;
+    top: 45px;
+    left: 270px;
+}
+.try:hover{
+	background: url(Source/Image/button-try.png) no-repeat 0 -57px;
+	border: none;
+    width: 343px;
+    height: 55px;
+    position: relative;
+    top: 45px;
+    left: 270px;
+}
+.arrow-right{
+	background: url(Source/Image/arrow.png) no-repeat right 4px;
+	position: absolute;
+	height: 85px;
+	top: 60px;
+	left: 630px;
+	padding: 0 55px 0 0;
+	font-family: HelveticaLC;
+    color: #5790dc;
+    font-size: 22px;
+}
+#content{
+	width: 1000px;
+	height: 450px;
+	float: left;
+}
+#content li{
+    width: 205px;
+    position: relative;
+    padding: 0 30px 0 80px;
+    margin: 0 0 0 0;
+    float: left;
+    height: 180px;
+    list-style: none;
+}
+#content h3{
+	color: #00000a;
+    font-family: HelveticaMC;
+    font-size: 22px;
+    margin: 0 0 0 0;
+}
+#content img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#content p{
+	padding: 0 0 0 0;
+	font-weight: normal;
+	font-family: HelveticaMC;
+	text-align: justify;
+}
+#box{
+	width: 1000px;
+	height: 300px;
+	clear: both;
+}
+#box h4{
+	font-family: HelveticaLC;
+    color: #5790dc;
+    font-size: 22px;
+    font-weight: normal;
+}
+.speech-bubble {
+	background: #ebe5e5;
+	width: 850px;
+	height: 130px;
+  	margin: 50px auto;
+	padding: 20px;
+  	text-align: center;
+ 	font-weight: 900;
+  	color: #fff;
+  	font-family: HelveticaMC;
+  	font-weight: normal;
+  	color: black;
+ 	position:relative;
+}
+.speech-bubble:before {
+	content: "";
+  	width: 0px;
+  	height: 0px;
+  	position: absolute;
+  	border-left: 10px solid transparent;
+  	border-right: 10px solid #ebe5e5;
+  	border-top: 10px solid #ebe5e5;
+  	border-bottom: 10px solid transparent;
+  	right: 19px;
+  	bottom: -19px;
+}
+.author{
+	margin-left: 800px;
+	margin-top: -40px;
+}
+#button2{
+	width: 1000px;
+	height: 150px;
+	background-color: white;
+	position: relative;
+	clear: both;
+}
+.arrow-left{
+	background: url(Source/Image/arrow1.png) no-repeat top left;
+	position: absolute;
+	height: 77px;
+	top: 10px;
+	left: 10px;
+	padding: 50px 0 20px 110px;
+	font-family: HelveticaLC;
+    color: #5790dc;
+    font-size: 22px;
+}
+#footer{
+	background: url(Source/Image/bottom.jpg) no-repeat;
+	width: 1000px;
+	height: 150px;
+	background-color: white;
+}
+#footer .contact-box{
+	width: 210px;
+    padding: 0 230px 0 0;
+    position: relative;
+    float: left;
+}
+#footer h5{
+	font-size: 18px;
+    font-family: HelveticaMc;
+    color: #00000a;
+    margin: 15px 0 10px 10px;
+}
+#footer .social h5{
+	font-size: 18px;
+    font-family: HelveticaMc;
+    color: #00000a;
+    margin: 15px 0 10px 43px;
+}
+#footer p{
+	margin: 0 0 0 10px;
+	font-size: 14px;
+}
+#footer .map{
+	background: url(Source/Image/map.jpg) no-repeat top left;
+    width: 201px;
+    height: 70px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+#footer .design-box{
+	float: left;
+	width: 210px;
+	padding-left: 15px;
+}
+#footer .social{
+	float: left;
+	width: 300px;
+	padding-left: 15px;
+}
+#footer .social li{
+	list-style: none;
+	width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+}
+#footer .icon1{
+	display: block;
+    float: left;
+    background: url(Source/Image/icon.png) no-repeat 0 0;
+    width: 24px;
+    height: 24px;
+}
+#footer .icon2{
+	display: block;
+    float: left;
+    background: url(Source/Image/icon.png) no-repeat 0 -24px;
+    width: 24px;
+    height: 24px;
+}
+#footer .icon3{
+	display: block;
+    float: left;
+    background: url(Source/Image/icon.png) no-repeat 0 -48px;
+    width: 24px;
+    height: 24px;
+}
+#footer .icon4{
+	display: block;
+    float: left;
+    background: url(Source/Image/icon.png) no-repeat 0 -72px;
+    width: 24px;
+    height: 24px;
+}
+#footer .icon5{
+	display: block;
+    float: left;
+    background: url(Source/Image/icon.png) no-repeat 0 -96px;
+    width: 24px;
+    height: 24px;
+}
+#footer .icon6{
+	display: block;
+    float: left;
+    background: url(Source/Image/icon.png) no-repeat 0 -120px;
+    width: 24px;
+    height: 24px;
+}
+#footer .bottom{
+	background: url(Source/Image/bottom.jpg) no-repeat top left;
+    width: 1000px;
+    height: 35px;
+    margin: 0 auto;
+    line-height: 35px;
+    clear: both;
+}
+#footer .bottom .float-left{
+	float: left;
+}
+#footer .bottom .float-right{
+	float: right; !important;
+	padding-right: 10px;
+}
